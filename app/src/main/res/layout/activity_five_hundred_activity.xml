@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03B9D1"
+    tools:context=".five_hundred_activity">
+
+
+    <TextView
+        android:id="@+id/five_hundred_veiw_1"
+        android:layout_width="85dp"
+        android:layout_height="32dp"
+        android:layout_x="16dp"
+        android:layout_y="73dp"
+        android:text="Observe"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/five_hundred_image1"
+        android:layout_width="283dp"
+        android:layout_height="142dp"
+        android:layout_x="125dp"
+        android:layout_y="0dp"
+        android:src="@drawable/bangladeshi_500_taka" />
+
+
+    <TextView
+        android:id="@+id/five_hundred_veiw_2"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_x="17dp"
+        android:layout_y="180dp"
+        android:text="Reverse"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/five_hundred_image2"
+        android:layout_width="286dp"
+        android:layout_height="190dp"
+        android:layout_x="123dp"
+        android:layout_y="101dp"
+        android:src="@drawable/bangladeshi_500_taka_rev" />
+
+    <TextView
+        android:id="@+id/five_hundred_veiw_3"
+        android:layout_width="84dp"
+        android:layout_height="wrap_content"
+        android:layout_x="8dp"
+        android:layout_y="301dp"
+        android:text="Value"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/five_hundred_veiw_4"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_x="201dp"
+        android:layout_y="301dp"
+        android:text="৳500 "
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/five_hundred_veiw_5"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_x="10dp"
+        android:layout_y="342dp"
+        android:text="Dimensions"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/five_hundred_veiw_6"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_x="163dp"
+        android:layout_y="343dp"
+        android:text="147 × 65 mm"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/five_hundred_veiw_7"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_x="7dp"
+        android:layout_y="387dp"
+        android:text="Main Colour"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/five_hundred_veiw_8"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_x="147dp"
+        android:layout_y="381dp"
+        android:text="Rich Deep Green and Blue"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/five_hundred_veiw_9"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_x="6dp"
+        android:layout_y="450dp"
+        android:text="Observe"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/five_hundred_veiw_10"
+        android:layout_width="298dp"
+        android:layout_height="61dp"
+        android:layout_x="113dp"
+        android:layout_y="441dp"
+        android:text="Bangabandhu Sheikh Mujibur Rahman"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/five_hundred_veiw_11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="7dp"
+        android:layout_y="506dp"
+        android:text="Reverse"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/five_hundred_veiw_12"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:layout_x="114dp"
+        android:layout_y="505dp"
+        android:text="Agriculture in Bangladesh"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/five_hundred_veiw_13"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_x="14dp"
+        android:layout_y="547dp"
+        android:text="Period"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/five_hundred_veiw_14"
+        android:layout_width="279dp"
+        android:layout_height="42dp"
+        android:layout_x="123dp"
+        android:layout_y="544dp"
+        android:text="9 August 2011 – present"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+
+</AbsoluteLayout>

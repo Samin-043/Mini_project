@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+
+        android:id="@+id/background_pic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/cuurency_pic1">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/First_page_Text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/background_text"
+        android:textAlignment="center"
+        android:textSize="35dp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/First_page_Button1"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="280dp"
+        android:layout_marginBottom="20dp"
+        android:text="Sign In"
+        android:textSize="21dp"
+        android:onClick="second_show"
+        >
+
+    </Button>
+
+
+
+
+</FrameLayout>

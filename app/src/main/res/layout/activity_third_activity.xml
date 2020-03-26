@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/third_pic_background1"
+    android:orientation="vertical"
+    tools:context=".Third_activity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000">
+
+        <TextView
+            android:id="@+id/third_textView"
+            android:layout_width="112dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:text="Welcome"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="italic|bold"
+
+            />
+
+        <TextView
+            android:id="@+id/third_textView1"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="italic|bold" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/third_textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="#000000"
+        android:paddingBottom="10dp"
+        android:text="@string/details"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="italic|bold" />
+
+
+   <TableRow
+
+        android:id="@+id/third_table_row1"
+        android:layout_marginTop="2dp">
+
+       <TextView
+           android:id="@+id/third_textView3"
+           android:layout_width="226dp"
+           android:layout_gravity="center_horizontal"
+           android:layout_span="2"
+           android:paddingLeft="10dp"
+           android:paddingRight="10dp"
+           android:text="currencry details"
+           android:textColor="#FFFFFF"
+           android:textSize="25dp">
+
+       </TextView>
+
+   </TableRow>
+
+
+
+    <TableRow
+        >
+
+        <TextView
+            android:id="@+id/third_textView_two"
+            android:layout_width="261dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Two taka"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="23dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/two_taka_button"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:onClick="Two_taka_show"
+            android:text="Details"
+            android:textSize="23dp"
+            android:textStyle="italic" />
+
+    </TableRow>
+
+    <TableRow android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/third_textView_five"
+            android:layout_width="212dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Five taka"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="23dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/five_taka_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="five_show"
+            android:text="Details"
+            android:textSize="23dp"
+            android:textStyle="italic" />
+
+    </TableRow>
+
+    <TableRow
+        >
+
+        <TextView
+            android:id="@+id/third_textView_ten"
+            android:layout_width="212dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Ten taka"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="23dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/ten_taka_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Details"
+            android:textSize="23dp"
+            android:textStyle="italic"
+            android:onClick="ten_show"
+            />
+
+    </TableRow>
+
+    <TableRow
+        >
+
+        <TextView
+            android:id="@+id/third_textView_twenty"
+            android:layout_width="212dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Twenty taka"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="23dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/twenty_taka_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Details"
+            android:textSize="23dp"
+            android:textStyle="italic"
+            android:onClick="twenty_show"
+            />
+
+    </TableRow>
+
+    <TableRow
+        >
+
+        <TextView
+            android:id="@+id/third_textView_fifty"
+            android:layout_width="212dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Fifty taka"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="23dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/fifty_taka_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Details"
+            android:textSize="23dp"
+            android:textStyle="italic"
+            android:onClick="fifty_show"
+            />
+
+    </TableRow>
+
+    <TableRow
+        >
+
+        <TextView
+            android:id="@+id/third_textView_hundred"
+            android:layout_width="212dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="One hundred taka"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="23dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/hundred_taka_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Details"
+            android:textSize="23dp"
+            android:textStyle="italic"
+            android:onClick="one_hundred_show"
+            />
+
+    </TableRow>
+
+    <TableRow
+        >
+
+        <TextView
+            android:id="@+id/third_textView_two_hundred"
+            android:layout_width="212dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Two hundred taka"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="23dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/two_hundred_taka_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Details"
+            android:textSize="23dp"
+            android:textStyle="italic"
+            android:onClick="two_hundred_show"
+            />
+
+    </TableRow>
+
+    <TableRow
+        >
+
+        <TextView
+            android:id="@+id/third_textView_five_hundred"
+            android:layout_width="212dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Five hundred taka"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="23dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/five_hundred_taka_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Details"
+            android:textSize="23dp"
+            android:textStyle="italic"
+            android:onClick="five_hundred_show"
+            />
+
+    </TableRow>
+
+    <TableRow
+        >
+
+        <TextView
+            android:id="@+id/third_textView_one_thousand"
+            android:layout_width="212dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="One Thousand taka"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="22dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/one_thousand_taka_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Details"
+            android:textSize="23dp"
+            android:textStyle="italic"
+            android:onClick="one_thousand_show"
+            />
+
+    </TableRow>
+
+</TableLayout>

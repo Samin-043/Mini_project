@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mini_project</string>
+    <string name="background_text">
+        Currecy in Bangladesh
+    </string>
+    <string name="details">
+        Bangladeshi Currency Note Details
+    </string>
+</resources>

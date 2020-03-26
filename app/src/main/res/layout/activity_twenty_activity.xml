@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03B9D1"
+    tools:context=".twenty_activity">
+
+
+    <TextView
+        android:id="@+id/twenty_veiw_1"
+        android:layout_width="85dp"
+        android:layout_height="32dp"
+        android:layout_x="16dp"
+        android:layout_y="73dp"
+        android:text="Observe"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/twenty_image1"
+        android:layout_width="278dp"
+        android:layout_height="156dp"
+        android:layout_x="130dp"
+        android:layout_y="1dp"
+        android:src="@drawable/bangladeshi_20_taka" />
+
+    <TextView
+        android:id="@+id/twenty_veiw_2"
+        android:layout_width="85dp"
+        android:layout_height="32dp"
+        android:layout_x="20dp"
+        android:layout_y="211dp"
+        android:text="Reverse"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/twenty_image2"
+        android:layout_width="276dp"
+        android:layout_height="162dp"
+        android:layout_x="132dp"
+        android:layout_y="135dp"
+        android:src="@drawable/bangladeshi_20_taka_rev" />
+
+
+    <TextView
+        android:id="@+id/twenty_veiw_3"
+        android:layout_width="84dp"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="305dp"
+        android:text="Value"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/twenty_veiw_4"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_x="191dp"
+        android:layout_y="304dp"
+        android:text="৳20 "
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/twenty_veiw_5"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_x="10dp"
+        android:layout_y="342dp"
+        android:text="Dimensions"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/twenty_veiw_6"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_x="163dp"
+        android:layout_y="343dp"
+        android:text="120 × 65 mm"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/twenty_veiw_7"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_x="10dp"
+        android:layout_y="381dp"
+        android:text="Main Colour"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/twenty_veiw_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="158dp"
+        android:layout_y="378dp"
+        android:text="Yellow and Green"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/twenty_veiw_9"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_x="9dp"
+        android:layout_y="418dp"
+        android:text="Observe"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/twenty_veiw_10"
+        android:layout_width="298dp"
+        android:layout_height="59dp"
+        android:layout_x="113dp"
+        android:layout_y="413dp"
+        android:text="Bangabandhu Sheikh Mujibur Rahman"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/twenty_veiw_11"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_x="8dp"
+        android:layout_y="476dp"
+        android:text="Reverse"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/twenty_veiw_12"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:layout_x="121dp"
+        android:layout_y="475dp"
+        android:text="Sixty Dome Mosque"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/twenty_veiw_13"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_x="10dp"
+        android:layout_y="519dp"
+        android:text="Period"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/twenty_veiw_14"
+        android:layout_width="279dp"
+        android:layout_height="42dp"
+        android:layout_x="121dp"
+        android:layout_y="517dp"
+        android:text="7 March 2012 – present"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+
+</AbsoluteLayout>
